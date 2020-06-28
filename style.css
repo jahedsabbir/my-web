@@ -1,0 +1,349 @@
+*{margin:0;padding:0}
+body{font-family:Sans-Serif, Arial !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;}
+body, html{height:100%;}
+img{max-width:100%}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+h1, h2, h3, h4, h5, h6{font-weight:normal;margin-top:10px;margin-bottom:10px}
+p{line-height: 150%;margin-bottom: 2em;}
+.container_full {width: 100%; height: auto;}
+.container {width:960px; margin:0 auto; display:block;}
+.fix{overflow:hidden;}
+.aligncenter{display:block;margin:0 auto;}
+.floatleft{float:left}
+.floatright{float:right}
+
+
+.header_bg{
+    background:black;
+    display:block;
+    overflow: hidden;
+}
+#header{
+    width:960px;
+	padding:20px 0;
+    overflow:hidden;
+    
+    height: 600px;
+    display:inline-block;
+}
+#header .logo h1{
+	font-family:qlassik;
+	font-weight:bold;
+	font-size:33px;
+    color:skyblue;
+    display:block;
+}
+#header .logo h1:hover{
+    color:yellow;
+}
+#header .menu{
+
+	border-radius:5px;
+
+	margin-top:15px;
+    padding:2px 0;
+    display:block;
+}
+#header .menu ul{
+	list-style:none;
+}
+#header .menu ul li{
+	float:left;
+	padding:5px 15px;
+	
+
+}
+
+
+
+#header .menu ul li a{
+	display:block;
+	font-family:qlassik;
+	font-weight:bold;
+	font-size:19px;
+    color:skyblue;	
+    display:block;
+    
+}
+#header .menu ul li a:hover{
+    color:yellow;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 10px;
+}
+.hdh2{
+    text-transform: uppercase;
+    color:skyblue;
+    margin-top: 260px;
+    margin-left: 150px;
+    font-size: 40px;
+    display:block;
+}
+.hdh2 .span{
+    color:yellow;
+}
+.hdp {
+    color:skyblue;
+    margin-left: 260px;
+    font-size: 20px;
+}
+#btn{
+    width:180px;
+    height: 50px;
+    background-color: skyblue;
+    color:black;
+    margin-left: 360px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: yellow;
+    color: black;
+    transition:1s ease-in-out;
+}
+.abbg{
+    background-color: rgb(233, 233, 74);
+    height: 500px;
+    display:block;
+    padding: 20px;
+    
+}
+
+.aboutme {
+   
+    text-transform:uppercase;
+    font-size:50px;
+    font-weight: bold;
+    
+}
+
+.absc p{
+    width:350px;
+    font-size: 22px;
+     float: right;
+     margin-right: :60px;
+    padding-bottom:50px;
+    padding-top:60px;
+    
+  
+}
+.abimg img{
+    float: left;
+    width:300px;
+    height:300px;
+ 
+   padding-top:100px;
+   border-radius: 50%;
+   
+}
+.abimg img:hover{
+   width:320px;
+   height: 320px;
+   transition:0.5s step-end;
+ }
+ .servicesbg{
+     background-color: black;
+     height: 600px;
+ }
+.srh2{
+  
+    color:yellow;
+    text-align: center;
+    text-transform:uppercase;
+    font-size:30px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: block;
+
+
+}
+/*start*/
+.serviceimg {
+    position: relative;
+    width: 300px;
+    float:left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  .image {
+    display: block;
+    width: 300px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color:yellow;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .serviceimg:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    text-align: center;
+    width:300px;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    font-weight: bold;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .chosebg{
+      background-color: black;
+      height: 700px;
+      color:white;
+      display:block;
+      border-top: 5px solid skyblue;
+  }
+  .chh2{
+    color:yellow;
+    text-align: center;
+    text-transform:uppercase;
+    font-size:30px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: block;
+  }
+  .info{
+      width:300px;
+     
+      float: right;
+      display: block;
+    
+  }
+  .info img{
+      border-radius: 90%;
+     display: block;
+      overflow: hidden;
+  }
+
+  
+ #me2img{
+      width:300px;
+      height:350px;
+      margin-left: 26px;
+      margin-top: 80px;
+      border-radius: 15%;
+  
+  }
+ .info1{
+     width:300px;
+     height: 300px;
+     float:left;
+    
+ }
+ .info1 img{
+    border-radius: 90%;
+    align:right;
+    overflow: hidden;
+}
+.info1 img:hover{
+    background-color: firebrick;
+}
+.contbg {
+    background-color: black;
+   
+    display: block;
+   color:white;
+    height:500px;
+    border-top:3px solid cornflowerblue;
+ 
+}
+..Contact{
+   margin-left: 450px;
+}
+.Contact h1{
+    text-align: center;
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+
+    
+}
+#form{
+    color:white;
+    font-size: 25px;
+   border:none;
+   border-bottom: 2px solid green;
+    background-color: black;
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+    position: relative;
+   
+}
+#button{
+    width:100%;
+    height:50px;
+    display: block;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid green;
+}
+#button:hover{
+    background-color: black;
+    color: white;
+    transition:1s ease-in-out;
+}
+.footer_top p{float:left;
+    font-size:20px;
+    padding-top:10px;
+    margin-left:30px;
+   height:5px;
+   }
+   .footer_top .social_area{float:right;
+                           
+                            
+   
+   }
+   .social_area img{width:30px;}
+   .social_area ul li {float:left;
+                        padding-top:10px;
+                        list-style-type:none;
+                        display:block;
+                        margin-right:25px;
+    }
+    .facebook img:hover{
+        background-color: rgb(0, 122, 245);
+        border-radius: 100%;
+        transition: all 1s ease;
+
+    }
+    .whatsapp img:hover{
+       background-color: rgb(77, 228, 47);
+        border-radius: 20%;
+        transition: all 1s ease;
+
+    }
+    .linkedin img:hover{
+        background-color: rgb(85, 176, 250);
+        border-radius: 100%;
+        transition: all 1s ease;
+
+    }
+    .instagram img:hover{
+        background-color: rgb(248, 55, 104);
+        border-radius: 100%;
+        transition: all 1s ease;
+
+    }
+
+    
